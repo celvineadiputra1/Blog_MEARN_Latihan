@@ -5,6 +5,7 @@ import "../../assets/fonts/nucleo-icons.css";
 import "../../assets/fonts/nucleo-svg.css";
 import githubIcon from "../../assets/icons/github.svg";
 import googleIcon from "../../assets/icons/google.svg";
+import { Button } from "../../components";
 import Input from "../../components/Atoms/Input";
 const Login = () => {
     return (
@@ -88,11 +89,9 @@ const Login = () => {
                                             </div>
                                         </div>
                                         <div class="text-center">
-                                            <button
-                                                type="button"
-                                                class="btn btn-primary mt-4">
-                                                Create account
-                                            </button>
+                                            <Button
+                                                classes="btn-primary mt-4"
+                                                text="Sign Up"></Button>
                                         </div>
                                     </form>
                                 </div>

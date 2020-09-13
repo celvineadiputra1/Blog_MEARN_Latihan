@@ -5,6 +5,7 @@ import "../../assets/fonts/nucleo-icons.css";
 import "../../assets/fonts/nucleo-svg.css";
 import githubIcon from "../../assets/icons/github.svg";
 import googleIcon from "../../assets/icons/google.svg";
+import { Button } from "../../components/Atoms";
 import Input from "../../components/Atoms/Input";
 const Register = () => {
     return (
@@ -93,11 +94,9 @@ const Register = () => {
                                             </div>
                                         </div>
                                         <div class="text-center">
-                                            <button
-                                                type="button"
-                                                class="btn btn-primary mt-4">
-                                                Create account
-                                            </button>
+                                            <Button
+                                                classes="btn-primary mt-4"
+                                                text="Create an Account"></Button>
                                         </div>
                                     </form>
                                 </div>
