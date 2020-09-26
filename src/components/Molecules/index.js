@@ -1,3 +1,5 @@
 import Header from "../Molecules/Header";
 import Footer from "../Molecules/Footer";
-export { Header, Footer };
+import BlogItem from "../Molecules/BlogItem";
+
+export { Header, Footer, BlogItem };

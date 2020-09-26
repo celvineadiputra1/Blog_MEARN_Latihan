@@ -5,9 +5,9 @@ const Header = () => {
         <div>
             <nav className="navbar navbar-expand-lg navbar-dark bg-default">
                 <div className="container">
-                    <a className="navbar-brand" href="#">
+                    <label className="navbar-brand">
                         MEARN STACK - BLOG
-                    </a>
+                    </label>
                     <button
                         className="navbar-toggler"
                         type="button"
@@ -25,7 +25,7 @@ const Header = () => {
                             <div className="row">
                                 <div className="col-6 collapse-brand">
                                     <a>
-                                        <img src="../../assets/img/brand/blue.png" />
+                                        <img src="../../assets/img/brand/blue.png" alt="blue" />
                                     </a>
                                 </div>
                                 <div className="col-6 collapse-close">
